@@ -13,6 +13,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # install tools:
+echo "Start to install tools"
 
 echo "install git"
 sudo apt-get install git
@@ -24,6 +25,8 @@ echo "install unzip"
 sudo apt-get install unzip
 echo "install unrar"
 sudo apt-get install unrar
+
+echo "Tools (git, curl, vim, unzip, unrar) have been installed in your computer!"
 
 echo ""
 echo "#######################################################################"
@@ -52,7 +55,7 @@ netMusicName="netMusic.deb"
 sudo wget -O ${netMusicName} -c ${netMusicLink}
 sudo dpkg -i ${netMusicName}
 
-
+echo "Software (sougou input, chrome, netMusic) have been installed in your computer!"
 
 echo ""
 echo "#######################################################################"
