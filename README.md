@@ -16,11 +16,16 @@ Linux Auto Configuration Script- Linux 软件自动安装配置脚本
 简直苦不堪言，时间就是金钱，但是手贱喜欢换系统怎么办，
 最后实在受不了了，自己写了一个自动化配置安装软件脚本
 
+在一切开始之前，可以先更新一下显卡驱动。
+
+安装显卡驱动:
+
+在设置--软件和更新--附加驱动中添加自己的驱动。
 
 `用法`
 ```
-正确打开命令行：
-git clone https://github.com/SickoOrange/UbuntuAutoScript.git
+正确打开命令行：（刚开始git命令不可用的话，可以选择直接下载）
+git clone https://github.com/GeekrHub/UbuntuAutoScript.git
 cd UbuntuAutoScript
 chmod +x setup.sh
 sudo ./ setup.sh
