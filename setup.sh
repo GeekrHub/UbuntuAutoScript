@@ -10,7 +10,13 @@ echo ""
 # update system
 echo "update system and software"
 sudo apt-get update
+# don't run software upgrade as taking too long time in China dur to server issues
 sudo apt-get upgrade
+
+# remove tools and software
+
+echo "remove libreoffice"
+sudo apt-get remove libreoffice-common
 
 # install tools:
 echo "Start to install tools"
@@ -25,8 +31,30 @@ echo "install unzip"
 sudo apt-get install unzip
 echo "install unrar"
 sudo apt-get install unrar
+echo "install gdebi"
+sudo apt-get install gdebi
 
-echo "Tools (git, curl, vim, unzip, unrar) have been installed in your computer!"
+echo "Tools (git, curl, vim, unzip, unrar, gdebi) have been installed in your computer!"
+
+echo ""
+echo "#######################################################################"
+echo "#                   UBUNTU THEME CUSTOMIZATION                        #"
+echo "#######################################################################"
+echo ""
+
+echo "install notify-osd"
+sudo apt-get install nofity-osd
+echo "install unity-tweak-tool"
+sudo apt-get install unity-tweak-tool
+#mannualy install flatabulous theme
+#echo "install flatabulous theme"
+#flatThemeLink="https://github.com/anmoljagetia/Flatabulous/releases/download/16.04.1/Flatabulous-Theme.deb"
+#flatThemeName="flatTheme.deb"
+#sudo wget -O ${flatThemeName} -c ${flatThemeLink}
+#sudo dpkg -i ${flatThemeName}
+echo "install docky"
+sudo apt-get install docky
+
 
 echo ""
 echo "#######################################################################"
