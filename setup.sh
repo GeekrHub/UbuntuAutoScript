@@ -52,9 +52,8 @@ sudo apt-get install unity-tweak-tool
 #flatThemeName="flatTheme.deb"
 #sudo wget -O ${flatThemeName} -c ${flatThemeLink}
 #sudo dpkg -i ${flatThemeName}
-echo "install docky"
-sudo apt-get install docky
 
+echo "Tools (notify-osd, unity-tweak-tool) have been installed in your computer!"
 
 echo ""
 echo "#######################################################################"
