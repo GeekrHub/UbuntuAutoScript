@@ -58,4 +58,5 @@ sudo ./ setup.sh
 > ![Screenshot from 2017-10-23 21-56-55.png](http://upload-images.jianshu.io/upload_images/3127217-3430d3da55a7fdfb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 如果这个项目帮到了你，还请扫码支持作者买杯咖啡。
-![IMG_7799.JPG](./src/IMG_7799.JPG)
+
+<img src="./src/IMG_7799.JPG" width="180"/>
